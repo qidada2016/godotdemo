@@ -1,3 +1,54 @@
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+*.import
 *.godot
-*.import/
-local_only/
+!project.godot
+!default_env.tres
+
+# VS Code-specific ignores
+.vscode/
+*.code-workspace
+.history/
+.DS_Store
+
+# Exported binaries
+bin/
+bin_debug/
+bin_release/
+
+# Logs
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Build artifacts
+build/
+
+# Editor backups
+*~
+*.swo
+*.swp
+
+# Android build
+android/build/
+android/export/
+
+# iOS build
+ios/build/
+ios/export/
+
+# macOS build
+macos/build/
+macos/export/
+
+# Windows build
+windows/build/
+windows/export/
+
+# Linux build
+linux/build/
+linux/export/
