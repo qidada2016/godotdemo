@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\misc\\hurtbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\misc\\hurtbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\resources\\data\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:resources\\data\\weapondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\misc\\hitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\misc\\hitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\game\\gamecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\game\\gamecontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\misc\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\misc\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\game\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\game\\layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\misc\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\misc\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\misc\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\misc\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\misc\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\misc\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\scenes\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:scenes\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|e:\\code\\godotdemo\\examples\\blitzkrieg\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A4DB72-E9B8-4E23-AABD-91EEDFD55D83}|Blitzkrieg.csproj|solutionrelative:utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameControl.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Game\\GameControl.cs",
+              "RelativeDocumentMoniker": "Scenes\\Game\\GameControl.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Game\\GameControl.cs",
+              "RelativeToolTip": "Scenes\\Game\\GameControl.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvyoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T02:20:36.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Game\\GameManager.cs",
+              "RelativeDocumentMoniker": "Scenes\\Game\\GameManager.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Game\\GameManager.cs",
+              "RelativeToolTip": "Scenes\\Game\\GameManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T02:02:32.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyManager.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Enemy\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "Scenes\\Enemy\\EnemyManager.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Enemy\\EnemyManager.cs",
+              "RelativeToolTip": "Scenes\\Enemy\\EnemyManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:44:05.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Utils\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils\\Utils.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Utils\\Utils.cs",
+              "RelativeToolTip": "Utils\\Utils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:35:10.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Movement.cs",
+              "RelativeDocumentMoniker": "Scenes\\Misc\\Movement.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Movement.cs",
+              "RelativeToolTip": "Scenes\\Misc\\Movement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T16:34:59.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeaponData.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Resources\\Data\\WeaponData.cs",
+              "RelativeDocumentMoniker": "Resources\\Data\\WeaponData.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Resources\\Data\\WeaponData.cs",
+              "RelativeToolTip": "Resources\\Data\\WeaponData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:42:24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HitBox.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\HitBox.cs",
+              "RelativeDocumentMoniker": "Scenes\\Misc\\HitBox.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\HitBox.cs",
+              "RelativeToolTip": "Scenes\\Misc\\HitBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:23:14.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Scenes\\Enemy\\Enemy.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Scenes\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:20:18.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Health.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Health.cs",
+              "RelativeDocumentMoniker": "Scenes\\Misc\\Health.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Health.cs",
+              "RelativeToolTip": "Scenes\\Misc\\Health.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:20:07.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HurtBox.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\HurtBox.cs",
+              "RelativeDocumentMoniker": "Scenes\\Misc\\HurtBox.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\HurtBox.cs",
+              "RelativeToolTip": "Scenes\\Misc\\HurtBox.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:15:36.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Weapon.cs",
+              "RelativeDocumentMoniker": "Scenes\\Misc\\Weapon.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Weapon.cs",
+              "RelativeToolTip": "Scenes\\Misc\\Weapon.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T14:00:22.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Bullet.cs",
+              "RelativeDocumentMoniker": "Scenes\\Misc\\Bullet.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Misc\\Bullet.cs",
+              "RelativeToolTip": "Scenes\\Misc\\Bullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:57:06.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Scenes\\Player\\Player.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Player\\Player.cs",
+              "RelativeToolTip": "Scenes\\Player\\Player.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:46:46.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Layout.cs",
+              "DocumentMoniker": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Game\\Layout.cs",
+              "RelativeDocumentMoniker": "Scenes\\Game\\Layout.cs",
+              "ToolTip": "E:\\Code\\godotdemo\\examples\\Blitzkrieg\\Scenes\\Game\\Layout.cs",
+              "RelativeToolTip": "Scenes\\Game\\Layout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T13:37:11.548Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[gd_scene load_steps=11 format=3 uid="uid://clvso4nq1dvrn"]
+
+[ext_resource type="Script" path="res://Scenes/Enemy/Enemy.cs" id="1_foux8"]
+[ext_resource type="Texture2D" uid="uid://dfpjieg5imf1h" path="res://Resources/Assets/Tilemap/ships_packed.png" id="1_hs1tw"]
+[ext_resource type="PackedScene" uid="uid://b5q17kur77cr6" path="res://Scenes/Misc/HurtBox.tscn" id="2_cls3l"]
+[ext_resource type="PackedScene" uid="uid://coj3afrkoq2th" path="res://Scenes/Misc/Health.tscn" id="3_tsmk2"]
+[ext_resource type="PackedScene" uid="uid://d1ivjrgwjsrld" path="res://Scenes/Misc/Weapon.tscn" id="7_ly0eu"]
+[ext_resource type="PackedScene" uid="uid://82me0ghxwvsu" path="res://Scenes/Misc/Movement.tscn" id="8_0xute"]
+[ext_resource type="PackedScene" uid="uid://htvlvlculg7w" path="res://Scenes/Misc/Bullet.tscn" id="8_hrqm3"]
+[ext_resource type="Script" path="res://Resources/Data/WeaponData.cs" id="8_q3tva"]
+
+[sub_resource type="Resource" id="Resource_oh1s8"]
+script = ExtResource("8_q3tva")
+PackedScene = ExtResource("8_hrqm3")
+ShootDirection = Vector2(0, 1)
+Damage = 1.0
+Speed = 300.0
+SelfTag = "Enemy"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2ig8w"]
+size = Vector2(20, 8)
+
+[node name="Enemy" type="Node2D" node_paths=PackedStringArray("Health")]
+script = ExtResource("1_foux8")
+Health = NodePath("Health")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hs1tw")
+region_enabled = true
+region_rect = Rect2(96, 168, 32, 16)
+
+[node name="Health" parent="." node_paths=PackedStringArray("_hurtBox") instance=ExtResource("3_tsmk2")]
+_hurtBox = NodePath("../HurtBox")
+
+[node name="Weapon" parent="." instance=ExtResource("7_ly0eu")]
+WeaponData = SubResource("Resource_oh1s8")
+FireRate = 0.8
+
+[node name="Movement" parent="." instance=ExtResource("8_0xute")]
+
+[node name="HurtBox" parent="." instance=ExtResource("2_cls3l")]
+collision_layer = 2
+collision_mask = 4
+DetectionTag = "Player"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+shape = SubResource("RectangleShape2D_2ig8w")

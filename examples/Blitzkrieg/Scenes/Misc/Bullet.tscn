@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://htvlvlculg7w"]
+
+[ext_resource type="Script" path="res://Scenes/Misc/Bullet.cs" id="1_6lqex"]
+[ext_resource type="Texture2D" uid="uid://be2bwidphyuw" path="res://Resources/Assets/Tilemap/tiles_packed.png" id="1_8ycjj"]
+[ext_resource type="PackedScene" uid="uid://dcpyivusosbmi" path="res://Scenes/Misc/HitBox.tscn" id="2_knluu"]
+[ext_resource type="AudioStream" uid="uid://cgg4fjujwnftc" path="res://Resources/Audio/shoot.wav" id="4_ywerd"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8dy13"]
+radius = 3.0
+height = 14.0
+
+[node name="Bullet" type="Node2D" node_paths=PackedStringArray("HitBox")]
+script = ExtResource("1_6lqex")
+HitBox = NodePath("HitBox")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_8ycjj")
+region_enabled = true
+region_rect = Rect2(32, 0, 16, 16)
+
+[node name="HitBox" parent="." instance=ExtResource("2_knluu")]
+collision_layer = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+shape = SubResource("CapsuleShape2D_8dy13")
+
+[node name="SoundEffect" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_ywerd")
+volume_db = -10.0
+autoplay = true
+bus = &"SoundEffect"

@@ -1,0 +1,52 @@
+[gd_scene load_steps=11 format=3 uid="uid://i3elt2strdx3"]
+
+[ext_resource type="Script" path="res://Scenes/Player/Player.cs" id="1_4esgd"]
+[ext_resource type="Texture2D" uid="uid://dfpjieg5imf1h" path="res://Resources/Assets/Tilemap/ships_packed.png" id="1_qy4w2"]
+[ext_resource type="PackedScene" uid="uid://d1ivjrgwjsrld" path="res://Scenes/Misc/Weapon.tscn" id="3_6osh7"]
+[ext_resource type="PackedScene" uid="uid://htvlvlculg7w" path="res://Scenes/Misc/Bullet.tscn" id="5_0n67k"]
+[ext_resource type="Script" path="res://Resources/Data/WeaponData.cs" id="5_a42u7"]
+[ext_resource type="PackedScene" uid="uid://b5q17kur77cr6" path="res://Scenes/Misc/HurtBox.tscn" id="6_uhct3"]
+[ext_resource type="PackedScene" uid="uid://coj3afrkoq2th" path="res://Scenes/Misc/Health.tscn" id="7_kg4un"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_26lgm"]
+size = Vector2(28, 12)
+
+[sub_resource type="Resource" id="Resource_mguoo"]
+script = ExtResource("5_a42u7")
+PackedScene = ExtResource("5_0n67k")
+ShootDirection = Vector2(0, -1)
+Damage = 1.0
+Speed = 300.0
+SelfTag = "Player"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_shlq7"]
+size = Vector2(28, 12)
+
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("Health")]
+collision_mask = 2
+script = ExtResource("1_4esgd")
+Health = NodePath("Health")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_qy4w2")
+region_enabled = true
+region_rect = Rect2(96, 0, 32, 32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_26lgm")
+
+[node name="Weapon" parent="." instance=ExtResource("3_6osh7")]
+WeaponData = SubResource("Resource_mguoo")
+FireRate = 0.25
+
+[node name="Health" parent="." node_paths=PackedStringArray("_hurtBox") instance=ExtResource("7_kg4un")]
+_health = 5.0
+_hurtBox = NodePath("../HurtBox")
+
+[node name="HurtBox" parent="." instance=ExtResource("6_uhct3")]
+collision_layer = 1
+collision_mask = 4
+DetectionTag = "Enemy"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtBox"]
+shape = SubResource("RectangleShape2D_shlq7")
